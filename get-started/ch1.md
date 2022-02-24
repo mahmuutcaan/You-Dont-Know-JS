@@ -1,23 +1,26 @@
-# You Don't Know JS Yet: Get Started - 2nd Edition
-# Chapter 1: What *Is* JavaScript?
+# You Don't Know JS Yet: Başlayın - 2. Baskı
+# Chapter 1: JavaScript *Nedir?*
 
-You don't know JS, yet. Neither do I, not fully anyway. None of us do. But we can all start getting to know JS better.
+Henüz JS bilmiyorsun. Tam olarak ben de bilmiyorum. Hiçbirimiz bilmiyoruz ama JS'yi daha iyi tanımaya başlayabiliriz.
 
-In this first chapter of the first book of the *You Don't Know JS Yet* (YDKJSY) series, we will take some time to build a foundation to move forward on. We need to start by covering a variety of important background housekeeping details, clearing up some myths and misconceptions about what the language really is (and isn't!).
+*You Dont Know JS Yet* (YDKJSY) kitabının ilk bölümünde, ilerleyebilmek için temel oluşturmaya biraz zaman ayıracağız. Arka plandaki çeşitli olayları ele alarak, dilin gerçekte ne olduğu (ve ne olmadığı!) hakkındaki bazı mitleri ve yanlış anlamaları temizleyerek başlayacağız.
 
-This is valuable insight into the identity and process of how JS is organized and maintained; all JS developers should understand it. If you want to get to know JS, this is how to *get started* taking the first steps in that journey.
+Bu tüm JS geliştiricilerin bilmesi gereken, JS'nin nasıl organize edildiğinin, sürdürüldüğünün, kimliğinin ve sürecinin içyüzününü aydınlatan bir kaynaktır. Eğer JS'yi anlamak/bilmek istiyorsanız bu yolculuğun ilk adımlarını atmaya buradan *başla*yabilirsiniz.
 
-## About This Book
+## Bu Kitap Hakkında
 
-I emphasize the word journey because *knowing JS* is not a destination, it's a direction. No matter how much time you spend with the language, you will always be able to find something else to learn and understand a little better. So don't look at this book as something to rush through for a quick achievement. Instead, patience and persistence are best as you take these first few steps.
+Yolculuk kelimesini özellikle vurguluyorum çünkü *JS'yi bilmek* bir varış noktası değil, bir yön. Dil ile ne kadar uğraşıp zaman harcarsanız harcayın, her zaman öğreneceğiniz ve biraz daha iyi anlayacağınız başka bir şey bulacaksınız. Bu yüzden bu kitabı sizi hızlıca başarıya götürecek bir araç olarak görüp acele etmeyin. İlk adımları atarken sabırlı olun ve kararlı bir şekilde sonuna kadar gidin.
 
-Following this background chapter, the rest of the book lays out a high-level map of what you will find as you dig into and study JS with the YDKJSY books.
+Bu arka plan bölümünün ardından kitabın geri kalanı YDKJSY kitaplarıyla JS'yi araştırırken ve çalışırken bulacağınız şeylerin üst düzey bir haritasını ortaya koyuyor.
 
-In particular, Chapter 4 identifies three main pillars around which the JS language is organized: scope/closures, prototypes/objects, and types/coercion. JS is a broad and sophisticated language, with many features and capabilities. But all of JS is founded on these three foundational pillars.
+Özellikle 4. bölümde JS dilinin üç ana sütunu olan scope/closures, prototypes/objects ve types/coercion konularından bahsediliyor. JS birçok özellik ve yeteneğe sahip geniş ve karmaşık bir dildir fakat tüm JS bu üç ana sütun üzerine kurulmuştur.
 
-Keep in mind that even though this book is titled "Get Started," it's **not intended as a beginner/intro book**. This book's main job is to get you ready for studying JS deeply throughout the rest of the series; it's written assuming you already have familiarity with JS over at least several months experience before moving on in YDKJSY. So to get the most out of *Get Started*, make sure you spend plenty of time writing JS code to build up your experience.
+- Çevirmen notu: Çeviride globalde geçerli olan terimleri Türkçeye çevirince garip oluyor, o yüzden bu terimleri global adıyla kullanmaya devam edeceğim.
 
-Even if you've already written a lot of JS before, this book should not be skimmed over or skipped; take your time to fully process the material here. **A good start always depends on a solid first step.**
+Bu kitabın adı "Başlayın", olsa da **başlangıç/giriş kitabı** olarak tasarlanmadığını unutmayın. Bu kitabın ana görevi, sizi serinin geri kalanı boyunca JS'yi derinlemesine çalışmaya hazırlamaktır. Bu kitap, en az birkaç aylık JS deneyimine sahip olduğunuz varsayılarak yazılmıştır. Bu nedenle *başlayın*dan en iyi şekilde yararlanmakn üzere JS kodu yazarak deneyiminizi geliştirmek için bolca zaman ayırdığınızdan emin olun.
+
+Daha önceden çokça JS yazmış olsan bile, bu kitap gözardı edilmemeli veya atlanmamalıdır. Buradaki tüm bilgileri işlemek için zaman ayırın. **İyi bir başlangıç her zaman sağlam bir ilk adıma bağlıdır.**
+
 
 ## What's With That Name?
 
