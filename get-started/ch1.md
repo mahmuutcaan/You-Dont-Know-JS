@@ -22,38 +22,41 @@ Bu kitabın adı "Başlayın", olsa da **başlangıç/giriş kitabı** olarak ta
 Daha önceden çokça JS yazmış olsan bile, bu kitap gözardı edilmemeli veya atlanmamalıdır. Buradaki tüm bilgileri işlemek için zaman ayırın. **İyi bir başlangıç her zaman sağlam bir ilk adıma bağlıdır.**
 
 
-## What's With That Name?
+## Bu İsim Ne İş?
 
-The name JavaScript is probably the most mistaken and misunderstood programming language name.
+Muhtemelen JavaScript adı en yanlış anlaşılan programlama dili adıdır.
 
-Is this language related to Java? Is it only the script form for Java? Is it only for writing scripts and not real programs?
+Bu dil Java ile mi bağlantılı? Java'nın script hali mi? Sadece script mi yazılıyor, gerçek program yazamıyor muyuz?
 
-The truth is, the name JavaScript is an artifact of marketing shenanigans. When Brendan Eich first conceived of the language, he code-named it Mocha. Internally at Netscape, the brand LiveScript was used. But when it came time to publicly name the language, "JavaScript" won the vote.
+Gerçek şu ki, JavaScript adı pazarlama kurnazlığının bir eseridir. Brendan Eich bu dili ilk tasarladığında "Mocha" ismini verdi. Brendan'ın o zamanlar çalıştığı şirket olan Netscape'de "LiveScript" ismini kullanıyorlardı. Ancak dili alenen isimlendirme vakti geldiğinde oylamayı "JavaScript" kazandı.
 
-Why? Because this language was originally designed to appeal to an audience of mostly Java programmers, and because the word "script" was popular at the time to refer to lightweight programs. These lightweight "scripts" would be the first ones to embed inside of pages on this new thing called the web!
+Neden? Çünkü dil çoğunlukla Java programcılarından oluşan bir kitleye hitap etmek için tasarlandı ve o zamanlar hafif/hızlı programlara "script" denilirdi.
 
-In other words, JavaScript was a marketing ploy to try to position this language as a palatable alternative to writing the heavier and more well-known Java of the day. It could just as easily have been called "WebJava," for that matter.
+Başka bir deyişle, bu JavaScript dilini günün daha ağır ve daha iyi bilinen Java'sını yazmaya karşı tatlı bir alternatif olarak konumlandırılmaya çalışan bir pazarlama stratejisiydi. Aslında bunun için basitçe "WebJava" diyebilirlerdi.
 
-There are some superficial resemblances between JavaScript's code and Java code. Those similarities don't particularly come from shared development, but from both languages targeting developers with assumed syntax expectations from C (and to an extent, C++).
+JavaScript kodu ile Java kodu arasında bazı yüzeysel benzerlikler bulunuyor. Bu benzerlikler geliştirme bakımından değil, iki dilinde C (birazcıkta C++) syntaxı(söz dizimi) beklentilerini hedeflemesinden gelir.
 
-For example, we use the `{` to begin a block of code and the `}` to end that block of code, just like C/C++ and Java. We also use the `;` to punctuate the end of a statement.
+Örnek verecek olursak, tıpkı C/C++ ve Java'daki gibi kod bloğunu başlatmak için `{` bu işareti ve kod bloğunu bitirmek için bu işareti `}` kullanıyoruz. Ayrıca bir ifadenin sonunu noktalamak için `;` kullanıyoruz.
 
-In some ways, legal relationships run even deeper than the syntax. Oracle (via Sun), the company that still owns and runs Java, also owns the official trademark for the name "JavaScript" (via Netscape). This trademark is almost never enforced, and likely couldn't be at this point.
+Bazı açılardan yasal bağlantılar syntax benzerliğinden daha derine gidiyor. Günümüzde hala Java'nın sahibi olan Oracle (Sun şirketi üzerinden) ayrıca "JavaScript" isminin ticari marka haklarına da (Netscape şirketi üzerinden) sahiptir. Bu ticari marka haklarını neredeyse hiç kullanmadılar, kullanacak gibi de durmuyorlar.
 
-For these reasons, some have suggested we use JS instead of JavaScript. That is a very common shorthand, if not a good candidate for an official language branding itself. Indeed, these books use JS almost exclusively to refer to the language.
+Bu sebeplerden dolayı bazıları JavaScript yerine JS kullanmamızı önerdi. Bu dilin resmi marka adı olarak çok iyi bir aday olmasa da, çok yaygın kullanılan bir kısaltma ki gerçekten de kitapların hepsinde JS neredeyse yalnızca dile atıfta bulunmak için kullanılır.
 
-Further distancing the language from the Oracle-owned trademark, the official name of the language specified by TC39 and formalized by the ECMA standards body is **ECMAScript**. And indeed, since 2016, the official language name has also been suffixed by the revision year; as of this writing, that's ECMAScript 2019, or otherwise abbreviated ES2019.
+Dili Oracle'ın sahip olduğu ticari markadan daha da uzaklaştıran **ECMAScript** adı, TC39 tarafından belirtilmiş ve ECMA standartlar kuruluşu tarafından da resmileştirilmiştir. Gerçekten de, 2016'dan beri, resmi dil adının sonuna revizyon yılı da eklenmiştir; Bu yazı itibariyle de, dilin resmi adı ECMAScript 2019 veya kısaltılmış haliyle ES2019'dur.
 
-In other words, the JavaScript/JS that runs in your browser or in Node.js, is *an* implementation of the ES2019 standard.
 
-| NOTE: |
+Diğer bir deyişle, tarayıcınızda veya Node.js'de çalışan JavaScript/JS, ES2019 standardının *bir* uygulamasıdır. 
+
+| NOT: |
 | :--- |
-| Don't use terms like "JS6" or "ES8" to refer to the language. Some do, but those terms only serve to perpetuate confusion. "ES20xx" or just "JS" are what you should stick to. |
+| "JS6" ya da "ES8" terimlerini dile atıfta bulunmak için kullanmayın. 
+Don't use terms like "JS6" or "ES8" to refer to the language. Bu terimlerin kullanımı sadece kafa karışıklığına sebep oluyor. "ES20XX" ya da sadece "JS" terimlerine bağlı kalın. |
 
-Whether you call it JavaScript, JS, ECMAScript, or ES2019, it's most definitely not a variant of the Java language!
+İster JavaScript deyin, ister JS, ister ECMAScript ya da ES2019 deyin, kesin ama kesin olarak bu dil Java'nın bir türü değil!
 
-> "Java is to JavaScript as ham is to hamster." --Jeremy Keith, 2009
-
+> "Java'nın JavaScript ile bağı kapı ile kapuçino ilişkisi kadardır." --Jeremy Keith, 2009
+>
+>  Referans https://www.youtube.com/watch?v=7sA3aRw_o3s - [Safa Elmalı](https://github.com/SafaElmali)
 ## Language Specification
 
 I mentioned TC39, the technical steering committee that manages JS. Their primary task is managing the official specification for the language. They meet regularly to vote on any agreed changes, which they then submit to ECMA, the standards organization.
